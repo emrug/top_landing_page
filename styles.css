@@ -1,0 +1,71 @@
+/* Styling for the header section */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 5px 120px 60px 120px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-main-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header-secondary-text {
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 0;
+}
+
+.left-header-content {
+    flex: 1;
+}
+
+.left-header-content p {
+    margin: 0;
+    padding: 0 30px 10px 0;
+}
+
+img {
+   width: 400px;
+   height: auto;
+   flex: 1;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+}
