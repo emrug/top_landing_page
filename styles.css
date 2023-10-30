@@ -1,6 +1,7 @@
 /* Styling for the header section */
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -19,7 +20,7 @@ body {
     color: #F9FAF8;
 }
 
-.header-secondary-text {
+.white-secondary-text {
     color: #E5E7EB;
     font-weight: 300;
 }
@@ -68,8 +69,13 @@ button {
     background-color: #3882F6;
     border-radius: 5px;
     color: white;
-    padding: 5px 20px;
+    width: 100px;
+    height: 30px;
     border: none;
+}
+
+.white-border-btn {
+    border: #E5E7EB 2px solid;
 }
 
 /* Styling for the info section */
@@ -126,4 +132,35 @@ button {
     font-weight: 700;
     text-align: right;
     margin: 0;
+}
+
+/* Styling for the call to action and footer */
+.action-container {
+    padding: 60px 120px;
+}
+
+.action-call {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 40px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-call p {
+    margin: 0;
+}
+
+.action-text {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 300;
 }
